@@ -32,4 +32,7 @@ VALUES
 select * from monitoramento_sustentabilidade;
 alter table Monitoramento_Sustentabilidade modify column nome_usuario varchar(150) NOT NULL;
 
+ALTER TABLE Monitoramento_Sustentabilidade 
+ADD classificacao VARCHAR(150) NOT NULL;
+
 
